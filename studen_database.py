@@ -50,8 +50,8 @@ class Student:
 
 # Manually creating student objects
 s1 = Student(101, "Sajid Ahmed", "CSE", True)
-s2 = Student(102, "Nusrat Jahan", "EEE", False)
-s3 = Student(103, "Tanvir Hasan", "BBA", True)
+s2 = Student(102, "Nusrat Jahan", "EEE", True)
+s3 = Student(103, "Tanvir Hasan", "BBA", False)
 
 
 def find_student_by_id(student_id):
