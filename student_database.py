@@ -41,11 +41,11 @@ class Student:
 
     def view_student_info(self):
         status = "Enrolled" if self.__is_enrolled else "Not Enrolled"
+        print("================== Student Information ==================")
         print(f"Student ID   : {self.__student_id}")
         print(f"Name         : {self.__name}")
         print(f"Department   : {self.__department}")
         print(f"Status       : {status}")
-        print("-" * 30)
 
 
 # Manually creating student objects
